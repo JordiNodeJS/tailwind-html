@@ -1,0 +1,80 @@
+<html data-theme="valentine">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            },
+          },
+        },
+        daisyui: {
+          themes: [
+            'light',
+            'dark',
+            'cupcake',
+            'bumblebee',
+            'emerald',
+            'corporate',
+            'synthwave',
+            'retro',
+            'cyberpunk',
+            'valentine',
+            'halloween',
+            'garden',
+            'forest',
+            'aqua',
+            'lofi',
+            'pastel',
+            'fantasy',
+            'wireframe',
+            'black',
+            'luxury',
+            'dracula',
+            'cmyk',
+            'autumn',
+            'business',
+            'acid',
+            'lemonade',
+            'night',
+            'coffee',
+            'winter',
+          ],
+        },
+      }
+    </script>
+  </head>
+  <body>
+    <div tabindex="0" class="collapse border border-base-300 bg-base-100 rounded-box">
+      <div class="collapse-title text-xl font-medium">Focus me to see content</div>
+      <div class="collapse-content">
+        <p>tabindex="0" attribute is necessary to make the div focusable</p>
+      </div>
+    </div>
+    <div class="collapse collapse-arrow">
+      <input  type="checkbox" />
+      <div class="collapse-title text-xl font-medium ">Click me to show/hide content</div>
+      <div class="collapse-content">
+        <p>tabindex="0" attribute is necessary to make the div focusable</p>
+      </div>
+    </div>
+    <div
+      tabindex="1"
+      class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
+    >
+      <div class="collapse-title text-xl font-medium">Focus me to see content</div>
+      <div class="collapse-content">
+        <p>tabindex="0" attribute is necessary to make the div focusable</p>
+      </div>
+    </div>
+  </body>
+</html>

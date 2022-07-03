@@ -1,0 +1,95 @@
+<html data-theme="valentine">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            },
+          },
+        },
+        daisyui: {
+          themes: [
+            'light',
+            'dark',
+            'cupcake',
+            'bumblebee',
+            'emerald',
+            'corporate',
+            'synthwave',
+            'retro',
+            'cyberpunk',
+            'valentine',
+            'halloween',
+            'garden',
+            'forest',
+            'aqua',
+            'lofi',
+            'pastel',
+            'fantasy',
+            'wireframe',
+            'black',
+            'luxury',
+            'dracula',
+            'cmyk',
+            'autumn',
+            'business',
+            'acid',
+            'lemonade',
+            'night',
+            'coffee',
+            'winter',
+          ],
+        },
+      }
+    </script>
+  </head>
+  <body>
+    <div class="mt-32 carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="https://placeimg.com/800/200/arch" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="https://placeimg.com/800/200/nature" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="https://placeimg.com/800/200/people" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="https://placeimg.com/800/200/animals" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide5" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide5" class="carousel-item relative w-full">
+          <img src="https://placeimg.com/800/200/animals/sepia" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
